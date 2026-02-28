@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Interior Designers in Ghaziabad | 3,000+ Projects | Indirapuram, Vaishali | Keyvendors</title>
+<meta name="description" content="Transform your Ghaziabad home or office with Keyvendors — 3,000+ projects delivered in Indirapuram, Vaishali, Raj Nagar & Vasundhara. 11 years local expertise. 3D design, transparent pricing from ₹99/sq ft, 45-day delivery guarantee. Free site visit today.">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+
+:root{
+  --bg:       #0B1523;
+  --bg2:      #0F1D2E;
+  --bg3:      #162438;
+  --bglight:  #F8FAFC;
+  --blue:     #1D55E0;
+  --blue2:    #2563EB;
+  --gold:     #F0A500;
+  --green:    #0EA56E;
+  --red:      #E3294A;
+  --white:    #FFFFFF;
+  --off:      #F1F5F9;
+  --slate:    #64748B;
+  --dark:     #0F172A;
+  --w90:rgba(255,255,255,.90);
+  --w70:rgba(255,255,255,.70);
+  --w40:rgba(255,255,255,.40);
+  --w15:rgba(255,255,255,.15);
+  --w08:rgba(255,255,255,.08);
+  --w04:rgba(255,255,255,.04);
+  --border:rgba(255,255,255,.09);
+}
+
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--white);overflow-x:hidden}
+
+/* ─── UTILITY ─────────────────────── */
+.container{max-width:1200px;margin:0 auto;padding:0 32px}
+.section-label{display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;padding:5px 14px;border-radius:30px;margin-bottom:18px}
+.sl-blue{background:rgba(29,85,224,.14);color:#93C5FD;border:1px solid rgba(29,85,224,.25)}
+.sl-gold{background:rgba(240,165,0,.12);color:#FCD34D;border:1px solid rgba(240,165,0,.22)}
+.sl-green{background:rgba(14,165,110,.12);color:#6EE7B7;border:1px solid rgba(14,165,110,.22)}
+.sl-red{background:rgba(227,41,74,.12);color:#FDA4AF;border:1px solid rgba(227,41,74,.22)}
+.sl-dark{background:rgba(15,23,42,.08);color:#475569;border:1px solid #E2E8F0}
+
+h2.section-title{font-family:'Outfit',sans-serif;font-size:clamp(26px,3.5vw,40px);font-weight:800;line-height:1.18;letter-spacing:-.02em;margin-bottom:14px}
+p.section-sub{font-size:15px;color:var(--w70);line-height:1.65;max-width:560px;margin-bottom:36px}
+
+/* ─── NAVBAR ─────────────────────── */
+nav{position:sticky;top:0;z-index:100;background:rgba(11,21,35,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:62px;gap:24px}
+.nav-logo{font-family:'Outfit',sans-serif;font-size:20px;font-weight:800;color:var(--white);letter-spacing:-.02em}
+.nav-logo span{color:var(--blue2)}
+.nav-links{display:flex;align-items:center;gap:28px}
+.nav-links a{font-size:13px;font-weight:500;color:var(--w70);text-decoration:none;transition:color .2s}
+.nav-links a:hover{color:var(--white)}
+.nav-cta{background:var(--blue2);color:var(--white);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;padding:9px 20px;border-radius:8px;border:none;cursor:pointer;white-space:nowrap;transition:all .2s;text-decoration:none}
+.nav-cta:hover{background:#1D4ED8;transform:translateY(-1px)}
+.nav-wa{display:flex;align-items:center;gap:6px;background:rgba(37,211,102,.12);border:1px solid rgba(37,211,102,.22);color:#4ADE80;font-size:13px;font-weight:600;padding:8px 16px;border-radius:8px;cursor:pointer;text-decoration:none;transition:all .2s}
+.nav-wa:hover{background:rgba(37,211,102,.2)}
+
+/* ─── HERO ─────────────────────────── */
+.hero{background:var(--bg);position:relative;overflow:hidden;padding:60px 0 0}
+.hero-mesh{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 20% 30%,rgba(29,85,224,.18) 0%,transparent 70%),radial-gradient(ellipse 50% 50% at 80% 70%,rgba(14,165,110,.08) 0%,transparent 60%);pointer-events:none}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);background-size:60px 60px;pointer-events:none}
+
+.hero-inner{display:grid;grid-template-columns:1fr 380px;gap:52px;align-items:start;position:relative;z-index:1}
+
+/* left */
+.hero-left{display:flex;flex-direction:column;gap:22px;padding-bottom:52px}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:7px;background:rgba(240,165,0,.10);border:1px solid rgba(240,165,0,.22);border-radius:30px;padding:5px 14px 5px 9px;width:fit-content}
+.eyebrow-pulse{width:6px;height:6px;border-radius:50%;background:var(--gold);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.75)}}
+.eyebrow-text{font-size:11.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--gold)}
+
+.hero-h1{font-family:'Outfit',sans-serif;font-size:clamp(34px,4.5vw,56px);font-weight:800;line-height:1.1;letter-spacing:-.025em;color:var(--white)}
+.hero-h1 .hl{color:#93C5FD;position:relative;display:inline-block}
+.hero-h1 .hl::after{content:'';position:absolute;bottom:-4px;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue2),transparent);border-radius:2px}
+
+.hero-sub{font-size:16px;color:var(--w70);line-height:1.68;max-width:520px}
+.hero-sub strong{color:var(--white);font-weight:600}
+
+.rating-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.stars{display:flex;gap:2px}
+.star{color:var(--gold);font-size:17px}
+.rating-val{font-size:17px;font-weight:800;color:var(--white)}
+.sep{color:var(--w15);font-size:14px}
+.rating-meta{font-size:12.5px;color:var(--w40);display:flex;align-items:center;gap:5px}
+
+.wyg-box{background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:20px 22px;display:flex;flex-direction:column;gap:9px;position:relative;overflow:hidden}
+.wyg-box::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--blue2),var(--green))}
+.wyg-title{font-size:12.5px;font-weight:700;color:var(--white);padding-left:10px;letter-spacing:.02em}
+.wyg-item{display:flex;align-items:flex-start;gap:9px;padding-left:10px}
+.wyg-chk{width:17px;height:17px;border-radius:50%;background:rgba(14,165,110,.15);border:1px solid rgba(14,165,110,.3);display:grid;place-items:center;flex-shrink:0;margin-top:2px}
+.wyg-chk svg{width:9px;height:9px;stroke:var(--green);stroke-width:2.5;fill:none}
+.wyg-txt{font-size:13px;color:var(--w70);line-height:1.45}
+
+.cta-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.btn-primary{background:var(--blue2);color:var(--white);font-family:'DM Sans',sans-serif;font-size:14px;font-weight:700;padding:14px 28px;border-radius:10px;border:none;cursor:pointer;display:flex;align-items:center;gap:8px;transition:all .2s;box-shadow:0 6px 22px rgba(37,99,235,.35);letter-spacing:.01em}
+.btn-primary:hover{background:#1D4ED8;transform:translateY(-2px);box-shadow:0 8px 28px rgba(37,99,235,.48)}
+.btn-wa{background:rgba(37,211,102,.10);color:var(--white);font-family:'DM Sans',sans-serif;font-size:14px;font-weight:600;padding:13px 22px;border-radius:10px;border:1px solid rgba(37,211,102,.22);cursor:pointer;display:flex;align-items:center;gap:8px;transition:all .2s}
+.btn-wa:hover{background:rgba(37,211,102,.18)}
+.wa-dot{width:20px;height:20px;background:#25D366;border-radius:50%;display:grid;place-items:center;font-size:11px;flex-shrink:0}
+
+/* right card */
+.hero-right{position:sticky;top:80px}
+.svc-card{background:var(--white);border-radius:20px;overflow:hidden;box-shadow:0 28px 70px rgba(0,0,0,.5),0 0 0 1px rgba(29,85,224,.2)}
+.card-img{height:220px;background:linear-gradient(135deg,#1E3A5F 0%,#1D55E0 55%,#0C1A30 100%);position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.card-img::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 30% 50%,rgba(255,255,255,.06),transparent 60%)}
+.card-img-icon{font-size:56px;position:relative;z-index:1}
+.card-img-badge{position:absolute;top:14px;left:14px;background:var(--gold);color:#0F172A;font-size:10px;font-weight:800;padding:4px 12px;border-radius:20px;z-index:2;text-transform:uppercase;letter-spacing:.06em}
+.card-img-review{position:absolute;bottom:14px;right:14px;background:rgba(11,21,35,.8);backdrop-filter:blur(8px);border:1px solid var(--border);border-radius:9px;padding:7px 11px;display:flex;align-items:center;gap:5px;z-index:2}
+.review-stars{color:var(--gold);font-size:11px;letter-spacing:-1px}
+.review-txt{font-size:11px;color:var(--w90);font-weight:600}
+.card-body{padding:22px}
+.card-tag{display:inline-flex;align-items:center;gap:5px;background:#EFF6FF;color:#1D4ED8;font-size:10px;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:10px;text-transform:uppercase;letter-spacing:.05em}
+.card-title{font-family:'Outfit',sans-serif;font-size:17px;font-weight:700;color:#0F172A;line-height:1.25;margin-bottom:5px}
+.card-desc{font-size:12px;color:#64748B;line-height:1.55;margin-bottom:16px}
+.card-price{background:#F8FAFC;border:1px solid #E2E8F0;border-radius:10px;padding:12px 15px;display:flex;align-items:center;margin-bottom:16px}
+.price-l{flex:1}
+.price-from{font-size:10px;color:#94A3B8;font-weight:500;margin-bottom:1px}
+.price-amt{display:flex;align-items:baseline;gap:3px}
+.price-sym{font-size:15px;font-weight:800;color:var(--red)}
+.price-num{font-family:'Outfit',sans-serif;font-size:28px;font-weight:800;color:var(--red);letter-spacing:-.02em}
+.price-unit{font-size:11px;color:#64748B}
+.price-r{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.badge-free{background:#ECFDF5;color:#065F46;font-size:10px;font-weight:700;padding:3px 9px;border-radius:6px;border:1px solid #A7F3D0}
+.badge-emi{background:#EFF6FF;color:#1D4ED8;font-size:10px;font-weight:700;padding:3px 9px;border-radius:6px;border:1px solid #BFDBFE}
+.card-btns{display:flex;flex-direction:column;gap:9px}
+.card-btn-p{width:100%;background:var(--blue2);color:var(--white);font-family:'DM Sans',sans-serif;font-size:13.5px;font-weight:700;padding:13px;border-radius:10px;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px;transition:all .2s;box-shadow:0 4px 14px rgba(37,99,235,.3)}
+.card-btn-p:hover{background:#1D4ED8;transform:translateY(-1px)}
+.card-btn-s{width:100%;background:transparent;color:#374151;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;padding:11px;border-radius:10px;border:1.5px solid #D1D5DB;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;transition:all .2s}
+.card-btn-s:hover{border-color:var(--blue2);color:var(--blue2);background:#EFF6FF}
+.card-note{display:flex;align-items:center;justify-content:center;gap:5px;margin-top:10px;font-size:11px;color:#94A3B8}
+
+/* ─── TRUST STRIP ────────────────── */
+.trust-strip{background:rgba(255,255,255,.04);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.trust-inner{display:grid;grid-template-columns:repeat(4,1fr)}
+.trust-item{display:flex;align-items:center;gap:13px;padding:22px 0;position:relative}
+.trust-item+.trust-item{padding-left:28px}
+.trust-item+.trust-item::before{content:'';position:absolute;left:0;top:25%;bottom:25%;width:1px;background:var(--border)}
+.trust-icon{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-size:19px;flex-shrink:0}
+.ti1{background:rgba(240,165,0,.12);border:1px solid rgba(240,165,0,.2)}
+.ti2{background:rgba(29,85,224,.14);border:1px solid rgba(29,85,224,.2)}
+.ti3{background:rgba(14,165,110,.12);border:1px solid rgba(14,165,110,.2)}
+.ti4{background:rgba(139,92,246,.12);border:1px solid rgba(139,92,246,.2)}
+.trust-text{display:flex;flex-direction:column;gap:1px}
+.trust-val{font-family:'Outfit',sans-serif;font-size:19px;font-weight:800;color:var(--white);line-height:1.1}
+.trust-lbl{font-size:11px;color:var(--w40);line-height:1.3}
+.trust-stars{display:flex;gap:1px;margin-bottom:1px}
+.ts{color:var(--gold);font-size:10px}
+
+/* ─── INTRO ──────────────────────── */
+.intro{padding:80px 0;background:var(--bg)}
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.intro-stats{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.stat-card{background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:22px;transition:transform .2s}
+.stat-card:hover{transform:translateY(-3px)}
+.stat-num{font-family:'Outfit',sans-serif;font-size:34px;font-weight:800;color:var(--white);letter-spacing:-.02em;margin-bottom:4px}
+.stat-num span{color:var(--blue2)}
+.stat-lbl{font-size:12.5px;color:var(--w40);line-height:1.4}
+.intro-text p{font-size:15px;color:var(--w70);line-height:1.7;margin-bottom:16px}
+.intro-text p strong{color:var(--white);font-weight:600}
+.society-pills{display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}
+.s-pill{background:var(--w08);border:1px solid var(--border);border-radius:20px;padding:5px 13px;font-size:12px;color:var(--w70)}
+
+/* ─── SERVICES ───────────────────── */
+.services{padding:80px 0;background:var(--bg2)}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.svc-tile{background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:22px 20px;transition:all .25s;cursor:pointer}
+.svc-tile:hover{border-color:rgba(29,85,224,.4);transform:translateY(-3px);box-shadow:0 12px 40px rgba(0,0,0,.3)}
+.svc-tile-icon{width:44px;height:44px;border-radius:11px;display:grid;place-items:center;font-size:20px;margin-bottom:14px}
+.svc-tile-name{font-family:'Outfit',sans-serif;font-size:15px;font-weight:700;color:var(--white);margin-bottom:6px}
+.svc-tile-desc{font-size:12.5px;color:var(--w40);line-height:1.5;margin-bottom:12px}
+.svc-tile-price{font-size:12px;font-weight:700;color:#93C5FD}
+
+/* ─── PROCESS ────────────────────── */
+.process{padding:80px 0;background:var(--bg)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative;margin:40px 0}
+.steps::before{content:'';position:absolute;top:28px;left:14%;right:14%;height:1px;background:linear-gradient(90deg,transparent,var(--border) 20%,var(--border) 80%,transparent);z-index:0}
+.step{display:flex;flex-direction:column;align-items:center;text-align:center;position:relative;z-index:1}
+.step-num{width:56px;height:56px;border-radius:50%;border:2px solid var(--border);background:var(--bg2);display:grid;place-items:center;font-family:'Outfit',sans-serif;font-size:18px;font-weight:800;color:var(--blue2);margin-bottom:16px;transition:all .3s}
+.step:hover .step-num{background:var(--blue2);color:var(--white);border-color:var(--blue2);box-shadow:0 0 24px rgba(37,99,235,.5)}
+.step-title{font-size:14px;font-weight:700;color:var(--white);margin-bottom:7px}
+.step-desc{font-size:12px;color:var(--w40);line-height:1.55;padding:0 8px}
+.payment-table{background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:28px;margin-top:40px}
+.pt-title{font-size:14px;font-weight:700;color:var(--white);margin-bottom:18px}
+.pt-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.pt-item{background:var(--w04);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
+.pt-pct{font-family:'Outfit',sans-serif;font-size:26px;font-weight:800;color:var(--blue2);margin-bottom:4px}
+.pt-when{font-size:12px;color:var(--w70);font-weight:600;margin-bottom:2px}
+.pt-detail{font-size:11px;color:var(--w40);line-height:1.4}
+
+/* ─── PRICING ────────────────────── */
+.pricing{padding:80px 0;background:var(--bg2)}
+.pricing-table{width:100%;border-collapse:collapse;border-radius:14px;overflow:hidden;margin-bottom:24px}
+.pricing-table th{background:var(--bg);font-family:'Outfit',sans-serif;font-size:13px;font-weight:700;color:var(--w40);letter-spacing:.06em;text-transform:uppercase;padding:14px 20px;text-align:left;border-bottom:1px solid var(--border)}
+.pricing-table th:not(:first-child){text-align:center}
+.pricing-table td{padding:16px 20px;border-bottom:1px solid var(--border);font-size:14px;color:var(--w70);background:var(--bg3)}
+.pricing-table tr:hover td{background:rgba(29,85,224,.06)}
+.pricing-table td:first-child{font-weight:700;color:var(--white)}
+.pricing-table td:not(:first-child){text-align:center}
+.price-green{color:var(--green);font-weight:700}
+.price-blue{color:#93C5FD;font-weight:700}
+.market-note{background:rgba(29,85,224,.08);border:1px solid rgba(29,85,224,.18);border-radius:10px;padding:14px 18px;font-size:13px;color:#93C5FD;display:flex;gap:10px;align-items:flex-start;margin-bottom:20px}
+.emi-box{background:rgba(14,165,110,.08);border:1px solid rgba(14,165,110,.18);border-radius:10px;padding:14px 18px;font-size:13px;color:#6EE7B7;display:flex;gap:10px;align-items:center}
+
+/* ─── AREAS ──────────────────────── */
+.areas{padding:80px 0;background:var(--bg)}
+.area-pills{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px}
+.area-pill{background:var(--bg3);border:1px solid var(--border);border-radius:30px;padding:9px 18px;font-size:13px;color:var(--w70);cursor:pointer;transition:all .2s;display:flex;align-items:center;gap:6px}
+.area-pill:hover{background:rgba(29,85,224,.12);border-color:rgba(29,85,224,.3);color:var(--white)}
+.area-pill .area-dot{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0}
+.society-box{background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:22px}
+.society-box-title{font-size:13px;font-weight:700;color:var(--w40);text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px}
+.society-tags{display:flex;flex-wrap:wrap;gap:8px}
+.soc-tag{background:var(--w04);border:1px solid var(--border);border-radius:8px;padding:6px 13px;font-size:12.5px;color:var(--w70)}
+
+/* ─── REVIEWS ────────────────────── */
+.reviews{padding:80px 0;background:var(--bg2)}
+.reviews-top{display:grid;grid-template-columns:220px 1fr;gap:40px;align-items:center;margin-bottom:36px}
+.agg-score{background:var(--bg3);border:1px solid var(--border);border-radius:16px;padding:28px;text-align:center}
+.agg-num{font-family:'Outfit',sans-serif;font-size:56px;font-weight:800;color:var(--white);line-height:1;margin-bottom:8px}
+.agg-stars{display:flex;justify-content:center;gap:3px;margin-bottom:8px}
+.agg-star{color:var(--gold);font-size:20px}
+.agg-count{font-size:12.5px;color:var(--w40)}
+.agg-badge{display:flex;align-items:center;gap:6px;justify-content:center;margin-top:10px;font-size:11px;color:var(--green)}
+.bars{display:flex;flex-direction:column;gap:9px}
+.bar-row{display:flex;align-items:center;gap:12px}
+.bar-lbl{font-size:12px;color:var(--w40);width:20px;text-align:right;flex-shrink:0}
+.bar-track{flex:1;height:6px;background:var(--w08);border-radius:3px;overflow:hidden}
+.bar-fill{height:100%;background:var(--gold);border-radius:3px}
+.bar-pct{font-size:11px;color:var(--w40);width:28px;flex-shrink:0}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.review-card{background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:22px;transition:transform .2s}
+.review-card:hover{transform:translateY(-3px)}
+.rev-stars{display:flex;gap:2px;margin-bottom:12px}
+.rev-star{color:var(--gold);font-size:14px}
+.rev-quote{font-size:13.5px;color:var(--w70);line-height:1.6;margin-bottom:14px;font-style:italic}
+.rev-author{display:flex;flex-direction:column;gap:2px}
+.rev-name{font-size:13px;font-weight:700;color:var(--white)}
+.rev-loc{font-size:11.5px;color:var(--w40)}
+.rev-project{font-size:11px;color:#93C5FD;margin-top:4px}
+
+/* ─── FAQ ────────────────────────── */
+.faq{padding:80px 0;background:var(--bg)}
+.faq-list{display:flex;flex-direction:column;gap:10px;max-width:780px}
+.faq-item{background:var(--bg3);border:1px solid var(--border);border-radius:12px;overflow:hidden;transition:border-color .2s}
+.faq-item.open{border-color:rgba(29,85,224,.3)}
+.faq-q{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 22px;cursor:pointer;font-size:14.5px;font-weight:600;color:var(--white)}
+.faq-arrow{width:24px;height:24px;border-radius:50%;background:var(--w08);border:1px solid var(--border);display:grid;place-items:center;font-size:12px;flex-shrink:0;transition:transform .25s,background .2s}
+.faq-item.open .faq-arrow{transform:rotate(180deg);background:rgba(29,85,224,.15)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.faq-item.open .faq-a{max-height:300px}
+.faq-a-inner{padding:0 22px 18px;font-size:13.5px;color:var(--w70);line-height:1.65;border-top:1px solid var(--border);padding-top:14px}
+
+/* ─── FINAL CTA ──────────────────── */
+.final-cta{padding:80px 0;background:var(--bg2);position:relative;overflow:hidden}
+.final-cta::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 80% at 50% 50%,rgba(29,85,224,.12),transparent 70%);pointer-events:none}
+.cta-box{text-align:center;position:relative;z-index:1}
+.cta-box h2{font-family:'Outfit',sans-serif;font-size:clamp(28px,4vw,46px);font-weight:800;line-height:1.15;margin-bottom:16px}
+.cta-box p{font-size:15.5px;color:var(--w70);line-height:1.6;margin-bottom:36px;max-width:500px;margin-left:auto;margin-right:auto}
+.cta-btns{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:36px}
+.cta-btn-p{background:var(--blue2);color:var(--white);font-family:'DM Sans',sans-serif;font-size:16px;font-weight:700;padding:16px 36px;border-radius:12px;border:none;cursor:pointer;display:flex;align-items:center;gap:9px;transition:all .2s;box-shadow:0 8px 28px rgba(37,99,235,.4)}
+.cta-btn-p:hover{background:#1D4ED8;transform:translateY(-2px)}
+.cta-btn-wa{background:rgba(37,211,102,.10);color:var(--white);font-family:'DM Sans',sans-serif;font-size:16px;font-weight:600;padding:15px 28px;border-radius:12px;border:1px solid rgba(37,211,102,.25);cursor:pointer;display:flex;align-items:center;gap:9px;transition:all .2s}
+.cta-btn-wa:hover{background:rgba(37,211,102,.18)}
+.cta-mini-trust{display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap}
+.cmt{font-size:12.5px;color:var(--w40);display:flex;align-items:center;gap:5px}
+
+/* ─── FOOTER ─────────────────────── */
+footer{background:var(--bg);border-top:1px solid var(--border);padding:32px 0}
+.footer-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+.footer-logo{font-family:'Outfit',sans-serif;font-size:17px;font-weight:800;color:var(--white)}
+.footer-logo span{color:var(--blue2)}
+.footer-links{display:flex;gap:24px}
+.footer-links a{font-size:12.5px;color:var(--w40);text-decoration:none;transition:color .2s}
+.footer-links a:hover{color:var(--white)}
+.footer-copy{font-size:12px;color:var(--w40)}
+
+/* ─── FLOATING WHATSAPP ──────────── */
+.float-wa{position:fixed;bottom:28px;right:28px;z-index:200;width:56px;height:56px;background:#25D366;border-radius:50%;display:grid;place-items:center;font-size:26px;box-shadow:0 6px 24px rgba(37,211,102,.5);cursor:pointer;animation:waPop .4s 1s ease both;transition:transform .2s}
+.float-wa:hover{transform:scale(1.1)}
+@keyframes waPop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+
+/* ─── ANIMATIONS ─────────────────── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slideRight{from{opacity:0;transform:translateX(-20px)}to{opacity:1;transform:translateX(0)}}
+@keyframes slideLeft{from{opacity:0;transform:translateX(20px)}to{opacity:1;transform:translateX(0)}}
+
+.hero-eyebrow{animation:fadeUp .4s .05s ease both}
+.hero-h1{animation:fadeUp .4s .12s ease both}
+.hero-sub{animation:fadeUp .4s .19s ease both}
+.rating-bar{animation:fadeUp .4s .24s ease both}
+.wyg-box{animation:fadeUp .4s .29s ease both}
+.cta-row{animation:fadeUp .4s .34s ease both}
+.svc-card{animation:slideLeft .5s .1s ease both}
+.trust-item:nth-child(1){animation:fadeUp .35s .5s ease both}
+.trust-item:nth-child(2){animation:fadeUp .35s .6s ease both}
+.trust-item:nth-child(3){animation:fadeUp .35s .7s ease both}
+.trust-item:nth-child(4){animation:fadeUp .35s .8s ease both}
+
+/* ─── RESPONSIVE ─────────────────── */
+@media(max-width:1024px){
+  .hero-inner,.intro-grid{grid-template-columns:1fr}
+  .hero-right,.hero-inner .hero-right{display:none}
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .reviews-grid{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr);gap:32px}
+  .steps::before{display:none}
+  .pt-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:768px){
+  .container{padding:0 20px}
+  .nav-links{display:none}
+  .trust-inner{grid-template-columns:repeat(2,1fr)}
+  .trust-item+.trust-item::before{display:none}
+  .trust-item:nth-child(2n){padding-left:20px;border-left:1px solid var(--border)}
+  .trust-item:nth-child(n+3){border-top:1px solid var(--border)}
+  .services-grid{grid-template-columns:1fr}
+  .reviews-top{grid-template-columns:1fr}
+  .reviews-grid{grid-template-columns:1fr}
+  .intro-stats{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════ NAVBAR ═══════════════════════ -->
+<nav>
+  <div class="container">
+    <div class="nav-inner">
+      <div class="nav-logo">Key<span>Vendors</span></div>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#areas">Areas</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center">
+        <a href="#contact" class="nav-wa">💬 WhatsApp</a>
+        <a href="#contact" class="nav-cta">Get Free Quote →</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════ HERO ═══════════════════════ -->
+<section class="hero">
+  <div class="hero-mesh"></div>
+  <div class="hero-grid"></div>
+  <div class="container">
+    <div class="hero-inner">
+
+      <!-- LEFT -->
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <div class="eyebrow-pulse"></div>
+          <span class="eyebrow-text">Ghaziabad's #1 Interior Design Studio</span>
+        </div>
+
+        <h1 class="hero-h1">
+          Best Interior Designers<br>in <span class="hl">Ghaziabad</span>
+        </h1>
+
+        <p class="hero-sub">
+          End-to-end home &amp; office interiors — <strong>3D design to on-site execution</strong>, delivered in <strong>45–60 days</strong>. Starting from <strong>₹99/sq ft</strong>. 
+        </p>
+
+        <div class="wyg-box">
+          <div class="wyg-title">What you'll get:</div>
+          <div class="wyg-item"><div class="wyg-chk"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div><span class="wyg-txt">Professional service with attention to detail</span></div>
+          <div class="wyg-item"><div class="wyg-chk"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div><span class="wyg-txt">Expert designers with years of experience</span></div>
+          <div class="wyg-item"><div class="wyg-chk"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div><span class="wyg-txt">Quality guarantee and after-service support</span></div>
+          <div class="wyg-item"><div class="wyg-chk"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div><span class="wyg-txt">Free 3D design &amp; photorealistic renders before work begins</span></div>
+          <div class="wyg-item"><div class="wyg-chk"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div><span class="wyg-txt">10-year structural warranty · 5-year material warranty</span></div>
+        </div>
+
+        <div class="cta-row">
+          <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get a Free Consultation <span>→</span></button>
+          <button class="btn-wa"><div class="wa-dot">💬</div>Book on WhatsApp</button>
+        </div>
+      </div>
+
+      <!-- RIGHT CARD -->
+      <div class="hero-right">
+        <div class="svc-card">
+          <div class="card-img">
+            <div class="card-img-badge">⭐ Most Popular</div>
+            <div class="card-img-icon">🏠</div>
+            <div class="card-img-review">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-txt">4.8</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">🏢 Residential &amp; Commercial</div>
+            <div class="card-title">Free Estimation for Interior Designing</div>
+            <div class="card-price">
+              <div class="price-l">
+                <div class="price-from">Starting from</div>
+                <div class="price-amt"><span class="price-sym">₹</span><span class="price-num">99</span><span class="price-unit">/sq ft onwards</span></div>
+              </div>
+              <div class="price-r">
+                <span class="badge-emi">EMI available</span>
+              </div>
+            </div>
+            <div class="card-btns">
+              <button class="card-btn-p">📋 Get Free Quote</button>
+              <button class="card-btn-s">🔍 View All Services</button>
+            </div>
+            <div class="card-note">🔒 No payment required · Free consultation</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ TRUST STRIP ═══════════════════════ -->
+<div class="trust-strip">
+  <div class="container">
+    <div class="trust-inner">
+      <div class="trust-item">
+        <div class="trust-icon ti1">⭐</div>
+        <div class="trust-text">
+          <div class="trust-stars"><span class="ts">★</span><span class="ts">★</span><span class="ts">★</span><span class="ts">★</span><span class="ts">★</span></div>
+          <div class="trust-val">4.8 / 5</div>
+          <div class="trust-lbl">From 320+ Google Reviews</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon ti2">🏠</div>
+        <div class="trust-text">
+          <div class="trust-val">5,000+</div>
+          <div class="trust-lbl">Ghaziabad Homes Delivered</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon ti3">🕐</div>
+        <div class="trust-text">
+          <div class="trust-val">45-Days</div>
+          <div class="trust-lbl">On-Time Delivery Guarantee</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon ti4">📅</div>
+        <div class="trust-text">
+          <div class="trust-val">15+ Years</div>
+          <div class="trust-lbl">Local Ghaziabad Expertise</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════ INTRO ═══════════════════════ -->
+<section class="intro" id="about">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-text">
+        <span class="section-label sl-blue">About Keyvendors</span>
+        <h2 class="section-title" style="color:var(--white)">Ghaziabad's Most Trusted Interior Design Partner</h2>
+        <p>Looking for the best interior designers in Ghaziabad? Keyvendors has delivered <strong>3,000+ home and office interiors</strong> across Indirapuram, Vaishali, Kaushambi, Raj Nagar Extension, and Vasundhara — for over <strong>11 years</strong>.</p>
+        <p>Our <strong>50+ in-house certified designers</strong> handle everything: space planning, 3D visualisation, material sourcing, and on-site execution. One team. One budget. <strong>Zero surprises.</strong></p>
+        <p>Whether you're in a 2BHK at <strong>ATS Advantage</strong>, a 3BHK at <strong>Orange County</strong>, or fitting out a commercial office in Sahibabad — we deliver on time and within your approved budget.</p>
+        <div class="society-pills">
+          <span class="s-pill">ATS Advantage</span><span class="s-pill">Orange County</span>
+          <span class="s-pill">Saya Gold Avenue</span><span class="s-pill">Gaur City</span>
+          <span class="s-pill">Amrapali Golf Homes</span><span class="s-pill">NX One</span>
+        </div>
+      </div>
+      <div class="intro-stats">
+        <div class="stat-card">
+          <div class="stat-num">3,000<span>+</span></div>
+          <div class="stat-lbl">Ghaziabad homes &amp; offices completed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">11<span>+</span></div>
+          <div class="stat-lbl">Years active in Ghaziabad market</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">50<span>+</span></div>
+          <div class="stat-lbl">Certified in-house Ghaziabad designers</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">4.8<span>★</span></div>
+          <div class="stat-lbl">Average Google rating from 320+ reviews</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ SERVICES ═══════════════════════ -->
+<section class="services" id="services">
+  <div class="container">
+    <span class="section-label sl-green">Our Services</span>
+    <h2 class="section-title" style="color:var(--white)">Everything Under One Roof</h2>
+    <p class="section-sub">Residential, commercial &amp; turnkey — handled by one in-house team from design to delivery.</p>
+    <div class="services-grid">
+      <div class="svc-tile"><div class="svc-tile-icon" style="background:rgba(29,85,224,.14)">🏡</div><div class="svc-tile-name">Full-Home Interiors</div><div class="svc-tile-desc">Complete home transformation — every room, one package, single point of contact.</div><div class="svc-tile-price">From ₹99/sq ft · Turnkey</div></div>
+      <div class="svc-tile"><div class="svc-tile-icon" style="background:rgba(14,165,110,.12)">🍳</div><div class="svc-tile-name">Modular Kitchen Design</div><div class="svc-tile-desc">L-shaped, U-shaped, parallel &amp; island kitchens. 500+ material &amp; finish options.</div><div class="svc-tile-price">From ₹1.2L · 500+ finishes</div></div>
+      <div class="svc-tile"><div class="svc-tile-icon" style="background:rgba(240,165,0,.12)">🏢</div><div class="svc-tile-name">Office &amp; Commercial</div><div class="svc-tile-desc">Workspaces, showrooms, salons, restaurants — full commercial fit-out in Ghaziabad.</div><div class="svc-tile-price">From ₹300/sq ft · Offices &amp; retail</div></div>
+      <div class="svc-tile"><div class="svc-tile-icon" style="background:rgba(139,92,246,.12)">🛏️</div><div class="svc-tile-name">Bedroom &amp; Wardrobe</div><div class="svc-tile-desc">Custom-fitted wardrobes, accent walls, false ceilings &amp; ambient lighting design.</div><div class="svc-tile-price">From ₹80K · Custom fitted</div></div>
+      <div class="svc-tile"><div class="svc-tile-icon" style="background:rgba(20,184,166,.12)">📐</div><div class="svc-tile-name">3D Design &amp; Renders</div><div class="svc-tile-desc">Photorealistic 3D visuals before any work begins. Approve every detail upfront.</div><div class="svc-tile-price">Free with every project</div></div>
+      <div class="svc-tile"><div class="svc-tile-icon" style="background:rgba(227,41,74,.12)">🪵</div><div class="svc-tile-name">False Ceiling &amp; POP</div><div class="svc-tile-desc">Gypsum, grid &amp; stretch ceiling designs for every style and every budget.</div><div class="svc-tile-price">From ₹45/sq ft · All types</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ PROCESS ═══════════════════════ -->
+<section class="process" id="process">
+  <div class="container">
+    <span class="section-label sl-gold">How It Works</span>
+    <h2 class="section-title" style="color:var(--white)">4 Steps to Your Dream Space</h2>
+    <p class="section-sub">From your first call to the handover key — here's exactly what happens.</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-title">Free Site Visit</div><div class="step-desc">Book online or WhatsApp. We visit your Ghaziabad property within 24 hours — no commitment needed.</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-title">3D Design &amp; Approval</div><div class="step-desc">Our designers create photorealistic 3D renders in 7–10 days. Changes at this stage are completely free.</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-title">Material Selection</div><div class="step-desc">Choose from 500+ materials &amp; finishes. We bring samples to your home or you visit our studio.</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-title">Execution &amp; Handover</div><div class="step-desc">Our in-house team handles everything. Written 45–60 day timeline committed before work starts.</div></div>
+    </div>
+    <div class="payment-table">
+      <div class="pt-title">💳 Transparent Payment Schedule — No Surprises</div>
+      <div class="pt-grid">
+        <div class="pt-item"><div class="pt-pct">10%</div><div class="pt-when">On Booking</div><div class="pt-detail">Fully refundable within 48 hours</div></div>
+        <div class="pt-item"><div class="pt-pct">40%</div><div class="pt-when">Design Approval</div><div class="pt-detail">After you approve the 3D renders</div></div>
+        <div class="pt-item"><div class="pt-pct">40%</div><div class="pt-when">Work Starts</div><div class="pt-detail">On commencement of on-site work</div></div>
+        <div class="pt-item"><div class="pt-pct">10%</div><div class="pt-when">On Handover</div><div class="pt-detail">Only after your final sign-off</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ PRICING ═══════════════════════ -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <span class="section-label sl-red">Transparent Pricing</span>
+    <h2 class="section-title" style="color:var(--white)">Interior Design Cost in Ghaziabad</h2>
+    <p class="section-sub">Indicative packages — detailed quote provided free after your site visit. No hidden charges.</p>
+    <div class="market-note">
+      <span>📊</span>
+      <span>Market data: Delhi NCR homeowners invest an average of <strong>₹580/sq ft</strong> in interiors (MagicBricks 2025). Keyvendors starts at ₹99/sq ft for modular solutions.</span>
+    </div>
+    <table class="pricing-table">
+      <thead>
+        <tr>
+          <th>Property Type</th>
+          <th>Basic Package</th>
+          <th>Premium Package</th>
+          <th>Includes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1 BHK (500–700 sq ft)</td><td><span class="price-green">₹2.5–3.5L</span></td><td><span class="price-blue">₹4–6L</span></td><td>Kitchen, bedroom, living, bathroom</td></tr>
+        <tr><td>2 BHK (800–1,100 sq ft)</td><td><span class="price-green">₹4–6L</span></td><td><span class="price-blue">₹7–12L</span></td><td>Full home with modular kitchen &amp; wardrobes</td></tr>
+        <tr><td>3 BHK (1,200–1,600 sq ft)</td><td><span class="price-green">₹6–9L</span></td><td><span class="price-blue">₹12–20L</span></td><td>Turnkey with premium materials &amp; 3D design</td></tr>
+        <tr><td>Office / Commercial</td><td><span class="price-green">₹300/sq ft</span></td><td><span class="price-blue">₹600+/sq ft</span></td><td>Space planning, furniture, false ceiling, lighting</td></tr>
+      </tbody>
+    </table>
+    <div class="emi-box">
+      <span style="font-size:20px">💳</span>
+      <span><strong>No-cost EMI available</strong> on projects above ₹3 lakh. Ask our team for your personalised payment plan during your free consultation.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ AREAS ═══════════════════════ -->
+<section class="areas" id="areas">
+  <div class="container">
+    <span class="section-label sl-blue">Areas We Cover</span>
+    <h2 class="section-title" style="color:var(--white)">Interior Designers Across All of Ghaziabad</h2>
+    <p class="section-sub">Our teams are based locally with 10–15 active projects running simultaneously across every major area.</p>
+    <div class="area-pills">
+      <div class="area-pill"><span class="area-dot"></span>Indirapuram</div>
+      <div class="area-pill"><span class="area-dot"></span>Vaishali</div>
+      <div class="area-pill"><span class="area-dot"></span>Kaushambi</div>
+      <div class="area-pill"><span class="area-dot"></span>Raj Nagar Extension</div>
+      <div class="area-pill"><span class="area-dot"></span>Vasundhara</div>
+      <div class="area-pill"><span class="area-dot"></span>Crossings Republik</div>
+      <div class="area-pill"><span class="area-dot"></span>Vijay Nagar</div>
+      <div class="area-pill"><span class="area-dot"></span>Shalimar Garden</div>
+      <div class="area-pill"><span class="area-dot"></span>Govindpuram</div>
+      <div class="area-pill"><span class="area-dot"></span>Sahibabad</div>
+      <div class="area-pill"><span class="area-dot"></span>Mohan Nagar</div>
+      <div class="area-pill"><span class="area-dot"></span>Wave City</div>
+      <div class="area-pill"><span class="area-dot"></span>Lal Kuan</div>
+    </div>
+    <div class="society-box">
+      <div class="society-box-title">Active projects right now in these societies</div>
+      <div class="society-tags">
+        <span class="soc-tag">ATS Advantage</span><span class="soc-tag">Orange County</span><span class="soc-tag">Saya Gold Avenue</span><span class="soc-tag">Gaur City</span><span class="soc-tag">Supertech Eco Village</span><span class="soc-tag">Amrapali Golf Homes</span><span class="soc-tag">NX One</span><span class="soc-tag">Crossings Republik</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ REVIEWS ═══════════════════════ -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <span class="section-label sl-gold">Customer Reviews</span>
+    <h2 class="section-title" style="color:var(--white)">What Ghaziabad Homeowners Say</h2>
+    <div class="reviews-top">
+      <div class="agg-score">
+        <div class="agg-num">4.8</div>
+        <div class="agg-stars"><span class="agg-star">★</span><span class="agg-star">★</span><span class="agg-star">★</span><span class="agg-star">★</span><span class="agg-star">★</span></div>
+        <div class="agg-count">Based on 320+ Google Reviews</div>
+        <div class="agg-badge">✓ Verified Google Reviews</div>
+      </div>
+      <div class="bars">
+        <div class="bar-row"><span class="bar-lbl">5★</span><div class="bar-track"><div class="bar-fill" style="width:84%"></div></div><span class="bar-pct">84%</span></div>
+        <div class="bar-row"><span class="bar-lbl">4★</span><div class="bar-track"><div class="bar-fill" style="width:12%;background:#93C5FD"></div></div><span class="bar-pct">12%</span></div>
+        <div class="bar-row"><span class="bar-lbl">3★</span><div class="bar-track"><div class="bar-fill" style="width:3%;background:#6EE7B7"></div></div><span class="bar-pct">3%</span></div>
+        <div class="bar-row"><span class="bar-lbl">2★</span><div class="bar-track"><div class="bar-fill" style="width:1%;background:var(--red)"></div></div><span class="bar-pct">1%</span></div>
+        <div class="bar-row"><span class="bar-lbl">1★</span><div class="bar-track"><div class="bar-fill" style="width:0%;background:var(--red)"></div></div><span class="bar-pct">0%</span></div>
+      </div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="rev-stars"><span class="rev-star">★</span><span class="rev-star">★</span><span class="rev-star">★</span><span class="rev-star">★</span><span class="rev-star">★</span></div>
+        <div class="rev-quote">"Keyvendors transformed our 3BHK in ATS Advantage completely. The 3D renders matched exactly what was delivered — on time and within budget. Couldn't recommend more highly."</div>
+        <div class="rev-author"><span class="rev-name">Rahul S.</span><span class="rev-loc">📍 Ahinsa Khand, Indirapuram</span><span class="rev-project">3BHK Full Home · ₹11.5L · 52 days</span></div>
+      </div>
+      <div class="review-card">
+        <div class="rev-stars"><span class="rev-star">★</span><span class="rev-star">★</span><span class="rev-star">★</span><span class="rev-star">★</span><span class="rev-star">★</span></div>
+        <div class="rev-quote">"Best interior designers in Vaishali. Transparent pricing, no hidden charges. Our modular kitchen is exactly what we wanted and our neighbours have already asked for their number."</div>
+        <div class="rev-author"><span class="rev-name">Priya M.</span><span class="rev-loc">📍 Vaishali Sector 4</span><span class="rev-project">2BHK Modular Kitchen &amp; Bedroom · ₹6.8L · 44 days</span></div>
+      </div>
+      <div class="review-card">
+        <div class="rev-stars"><span class="rev-star">★</span><span class="rev-star">★</span><span class="rev-star">★</span><span class="rev-star">★</span><span class="rev-star">★</span></div>
+        <div class="rev-quote">"Professional team from Day 1. Our 2,400 sq ft office in Kaushambi was completed in 38 days — on time, on budget, and it looks incredible. Every client who visits asks about it."</div>
+        <div class="rev-author"><span class="rev-name">Amit K.</span><span class="rev-loc">📍 Kaushambi</span><span class="rev-project">Office Fit-Out 2,400 sq ft · ₹7.2L · 38 days</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FAQ ═══════════════════════ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <span class="section-label sl-blue">FAQ</span>
+    <h2 class="section-title" style="color:var(--white)">Frequently Asked Questions</h2>
+    <p class="section-sub">Everything you need to know about interior design in Ghaziabad.</p>
+    <div class="faq-list" id="faqList">
+      <div class="faq-item open">
+        <div class="faq-q" onclick="toggleFaq(this)">What is the cost of interior design in Ghaziabad?<span class="faq-arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner">A 1BHK starts from ₹2.5 lakh, 2BHK from ₹4 lakh, and 3BHK from ₹6 lakh for full-home interiors. The Delhi NCR average is ₹580/sq ft (MagicBricks 2025). Keyvendors modular solutions start at ₹99/sq ft. We provide a detailed, itemised free quote after a free site visit — no hidden charges, no surprises.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">How long does a home interior project in Ghaziabad take?<span class="faq-arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner">A standard 2BHK full-home project takes 45–60 days from design approval to handover. This includes 3D design (7–10 days), material sourcing (7–14 days), and on-site execution (30–40 days). We provide a written timeline commitment before any work begins.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Do you serve Indirapuram and Vaishali in Ghaziabad?<span class="faq-arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner">Yes — Indirapuram and Vaishali are our most active project zones. We have completed 1,200+ projects in these areas alone, including properties in Ahinsa Khand, Nyay Khand, Shakti Khand, and all six sectors of Vaishali.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Do you show 3D designs before work begins?<span class="faq-arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner">Absolutely. Every Keyvendors project starts with photorealistic 3D renders of your space — furniture placement, colours, materials, and lighting — all approved before any work begins. Changes at the design stage are completely free.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">What warranty do you offer on interior work?<span class="faq-arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner">We provide a 10-year structural warranty on civil work and a 5-year warranty on all installed materials and finishes for every Keyvendors project in Ghaziabad. After handover, our support team is available for service calls — no extra charge for the first year.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Is EMI available for interior design in Ghaziabad?<span class="faq-arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner">Yes. No-cost EMI is available on projects above ₹3 lakh. Ask our team for your personalised payment schedule during your free consultation. We also offer a transparent 4-milestone payment plan: 10% booking, 40% design approval, 40% work commencement, 10% on final handover.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">How do I get started with Keyvendors in Ghaziabad?<span class="faq-arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner">Book a free site visit online or via WhatsApp (9018181818). We visit your property within 24 hours, assess your space, understand your requirements, and provide a detailed quote within 48 hours of the visit — completely free, no commitment required.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FINAL CTA ═══════════════════════ -->
+<section class="final-cta" id="contact">
+  <div class="container">
+    <div class="cta-box">
+      <span class="section-label sl-blue" style="margin-bottom:20px;display:inline-flex">Ready to Transform Your Space?</span>
+      <h2 style="color:var(--white)">Free Site Visit Within<br><span style="color:#93C5FD">24 Hours of Booking</span></h2>
+      <p>No commitment required. Our Ghaziabad team visits, assesses your space, and provides a detailed quote within 48 hours — completely free.</p>
+      <div class="cta-btns">
+        <button class="cta-btn-p">📋 Book Free Site Visit Today →</button>
+        <button class="cta-btn-wa"><div class="wa-dot" style="width:22px;height:22px;font-size:13px">💬</div>WhatsApp: 9018181818</button>
+      </div>
+      <div class="cta-mini-trust">
+        <span class="cmt">⭐ 4.8/5 · 320+ Reviews</span>
+        <span class="cmt">🏠 3,000+ Ghaziabad Homes</span>
+        <span class="cmt">🕐 45-Day Delivery Guarantee</span>
+        <span class="cmt">🔒 10-Year Warranty</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">Key<span>Vendors</span></div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#areas">Areas</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer-copy">© 2026 Keyvendors · Interior Designers in Ghaziabad</div>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<div class="float-wa" title="Chat on WhatsApp">💬</div>
+
+<!-- FAQ JS -->
+<script>
+function toggleFaq(el) {
+  const item = el.parentElement;
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"What is the cost of interior design in Ghaziabad?","acceptedAnswer":{"@type":"Answer","text":"A 1BHK starts from ₹2.5 lakh, 2BHK from ₹4 lakh, and 3BHK from ₹6 lakh. Keyvendors modular solutions start at ₹99/sq ft. Free itemised quote after site visit."}},
+    {"@type":"Question","name":"How long does a home interior project in Ghaziabad take?","acceptedAnswer":{"@type":"Answer","text":"A standard 2BHK takes 45–60 days from design approval to handover, with a written timeline commitment before work begins."}},
+    {"@type":"Question","name":"Do you serve Indirapuram and Vaishali?","acceptedAnswer":{"@type":"Answer","text":"Yes — 1,200+ projects completed in Indirapuram and Vaishali alone, including ATS Advantage, Orange County, and all Vaishali sectors."}},
+    {"@type":"Question","name":"What warranty do you offer?","acceptedAnswer":{"@type":"Answer","text":"10-year structural warranty and 5-year material warranty on all Keyvendors projects in Ghaziabad."}}
+  ]
+}
+</script>
+
+</body>
+</html>

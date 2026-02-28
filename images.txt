@@ -1,0 +1,2 @@
+to genrate image use chrome gemini nano bana in chrome 
+URL = https://gemini.google.com/u/4/app?pageId=none

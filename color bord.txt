@@ -1,0 +1,27 @@
+- CSV
+
+FEFEFE,1B1E22,B80809
+
+- With #
+
+#FEFEFE, #1B1E22, #B80809
+
+- Array
+
+["FEFEFE","1B1E22","B80809"]
+
+- Object
+
+{"White":"FEFEFE","Carbon Black":"1B1E22","Brick Ember":"B80809"}
+
+- Extended Array
+
+[{"name":"White","hex":"FEFEFE","rgb":[254,254,254],"cmyk":[0,0,0,0],"hsb":[0,0,100],"hsl":[0,0,100],"lab":[100,0,0]},{"name":"Carbon Black","hex":"1B1E22","rgb":[27,30,34],"cmyk":[21,12,0,87],"hsb":[214,21,13],"hsl":[214,11,12],"lab":[11,0,-3]},{"name":"Brick Ember","hex":"B80809","rgb":[184,8,9],"cmyk":[0,96,95,28],"hsb":[360,96,72],"hsl":[360,92,38],"lab":[39,62,49]}]
+
+- XML
+
+<palette>
+  <color name="White" hex="FEFEFE" r="254" g="254" b="254" />
+  <color name="Carbon Black" hex="1B1E22" r="27" g="30" b="34" />
+  <color name="Brick Ember" hex="B80809" r="184" g="8" b="9" />
+</palette>
