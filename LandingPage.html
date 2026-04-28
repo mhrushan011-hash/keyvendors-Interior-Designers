@@ -257,6 +257,10 @@ footer{background:var(--dark);border-top:1px solid rgba(255,255,255,.08);padding
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .form-submit{width:100%;background:var(--red);color:#fff;font-family:'DM Sans',sans-serif;font-size:15px;font-weight:700;padding:14px;border-radius:10px;border:none;cursor:pointer;margin-top:8px;transition:all .2s;box-shadow:0 6px 20px var(--red-glow)}
 .form-submit:hover{background:var(--red2);transform:translateY(-1px)}
+.service-badge{display:inline-flex;align-items:center;gap:6px;background:var(--red);color:#fff;font-weight:700;font-size:12.5px;padding:6px 14px;border-radius:999px;margin:0 0 18px 0;letter-spacing:.2px;box-shadow:0 4px 14px var(--red-glow);text-transform:none}
+.service-badge[hidden]{display:none}
+.service-badge .lock-icon{font-size:12px;line-height:1}
+.svc-tile:focus-visible{outline:2px solid var(--red);outline-offset:4px}
 
 /* ─── FLOATING BUTTONS ─── */
 .float-btns{position:fixed;bottom:24px;right:24px;z-index:200;display:flex;flex-direction:column;gap:12px}
@@ -593,42 +597,42 @@ footer{background:var(--dark);border-top:1px solid rgba(255,255,255,.08);padding
 <h2 class="section-title">Everything Under One Roof</h2>
 <p class="section-sub">Residential, commercial &amp; turnkey — handled by one in-house team from design to handover.</p>
 <div class="services-grid">
-  <div class="svc-tile">
+  <div class="svc-tile" role="button" tabindex="0" aria-label="Get a free quote for Full-Home Interiors" onclick="openQuoteModal('Full-Home Interiors')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openQuoteModal('Full-Home Interiors');}">
     <div class="svc-img">
       <svg viewBox="0 0 200 160" fill="none"><rect x="20" y="80" width="160" height="50" rx="8" fill="#D1D5DB"/><rect x="30" y="65" width="140" height="22" rx="6" fill="#E5E7EB"/><rect x="20" y="72" width="24" height="58" rx="6" fill="#E5E7EB"/><rect x="156" y="72" width="24" height="58" rx="6" fill="#E5E7EB"/><rect x="50" y="74" width="30" height="14" rx="4" fill="#B80809" opacity=".5"/><rect x="85" y="74" width="30" height="14" rx="4" fill="#B80809" opacity=".3"/><rect x="40" y="20" width="50" height="40" rx="4" fill="#E5E7EB" stroke="#D1D5DB"/><rect x="110" y="20" width="50" height="35" rx="4" fill="#E5E7EB" stroke="#D1D5DB"/><line x1="20" y1="130" x2="180" y2="130" stroke="#D1D5DB" stroke-width="1"/></svg>
       <div class="svc-img-overlay"></div>
     </div>
     <div class="svc-body"><div class="svc-name">Full-Home Interiors</div><div class="svc-desc">Complete home transformation — every room, one package, single point of contact. Turnkey delivery.</div><div class="svc-price">From ₹99/sq ft · Turnkey</div></div>
   </div>
-  <div class="svc-tile">
+  <div class="svc-tile" role="button" tabindex="0" aria-label="Get a free quote for Modular Kitchen Design" onclick="openQuoteModal('Modular Kitchen Design')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openQuoteModal('Modular Kitchen Design');}">
     <div class="svc-img">
       <svg viewBox="0 0 200 160" fill="none"><rect x="30" y="40" width="140" height="90" rx="6" fill="#E5E7EB" stroke="#D1D5DB"/><rect x="30" y="40" width="140" height="15" rx="6" fill="#D1D5DB"/><rect x="35" y="60" width="40" height="65" rx="4" fill="#F3F4F6" stroke="#D1D5DB"/><rect x="80" y="60" width="40" height="65" rx="4" fill="#F3F4F6" stroke="#D1D5DB"/><rect x="125" y="60" width="40" height="65" rx="4" fill="#F3F4F6" stroke="#D1D5DB"/><circle cx="55" cy="90" r="4" fill="#B80809" opacity=".4"/><circle cx="100" cy="90" r="4" fill="#B80809" opacity=".4"/><circle cx="145" cy="90" r="4" fill="#B80809" opacity=".4"/><rect x="60" y="25" width="80" height="15" rx="3" fill="#D1D5DB" stroke="#9CA3AF"/><ellipse cx="100" cy="25" rx="5" ry="4" fill="rgba(217,119,6,.4)"/></svg>
       <div class="svc-img-overlay"></div>
     </div>
     <div class="svc-body"><div class="svc-name">Modular Kitchen Design</div><div class="svc-desc">L-shaped, U-shaped, parallel &amp; island kitchens. 500+ material &amp; finish options available.</div><div class="svc-price">From ₹1.2L · 500+ Finishes</div></div>
   </div>
-  <div class="svc-tile">
+  <div class="svc-tile" role="button" tabindex="0" aria-label="Get a free quote for Office and Commercial" onclick="openQuoteModal('Office &amp; Commercial')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openQuoteModal('Office &amp; Commercial');}">
     <div class="svc-img">
       <svg viewBox="0 0 200 160" fill="none"><rect x="20" y="30" width="160" height="100" rx="4" fill="#E5E7EB"/><rect x="30" y="50" width="60" height="40" rx="3" fill="#F3F4F6"/><rect x="100" y="50" width="70" height="40" rx="3" fill="#F3F4F6"/><rect x="30" y="100" width="60" height="20" rx="3" fill="#F3F4F6"/><rect x="100" y="100" width="70" height="20" rx="3" fill="#F3F4F6"/><rect x="70" y="30" width="60" height="15" rx="2" fill="#D1D5DB" stroke="#9CA3AF"/><circle cx="160" cy="60" r="8" fill="rgba(184,8,9,.08)" stroke="#B80809" stroke-width="1"/><rect x="45" y="60" width="30" height="3" rx="1" fill="#9CA3AF"/><rect x="45" y="68" width="20" height="3" rx="1" fill="#9CA3AF"/></svg>
       <div class="svc-img-overlay"></div>
     </div>
     <div class="svc-body"><div class="svc-name">Office &amp; Commercial</div><div class="svc-desc">Workspaces, showrooms, clinics, restaurants — full commercial fit-outs across Delhi NCR.</div><div class="svc-price">From ₹300/sq ft · Offices &amp; Retail</div></div>
   </div>
-  <div class="svc-tile">
+  <div class="svc-tile" role="button" tabindex="0" aria-label="Get a free quote for Wardrobe and Storage" onclick="openQuoteModal('Wardrobe &amp; Storage')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openQuoteModal('Wardrobe &amp; Storage');}">
     <div class="svc-img">
       <svg viewBox="0 0 200 160" fill="none"><rect x="40" y="50" width="120" height="80" rx="6" fill="#D1D5DB" stroke="#9CA3AF"/><rect x="45" y="55" width="50" height="70" rx="4" fill="#E5E7EB"/><rect x="100" y="55" width="55" height="70" rx="4" fill="#E5E7EB"/><rect x="50" y="60" width="40" height="12" rx="2" fill="#F3F4F6"/><rect x="50" y="76" width="40" height="12" rx="2" fill="#F3F4F6"/><rect x="50" y="92" width="40" height="12" rx="2" fill="#F3F4F6"/><circle cx="115" cy="90" r="5" fill="#B80809" opacity=".3"/><rect x="40" y="40" width="120" height="14" rx="4" fill="#D1D5DB"/></svg>
       <div class="svc-img-overlay"></div>
     </div>
     <div class="svc-body"><div class="svc-name">Wardrobe &amp; Storage</div><div class="svc-desc">Custom-fitted wardrobes, walk-ins, accent walls &amp; smart storage solutions for every room.</div><div class="svc-price">From ₹80K · Custom Fitted</div></div>
   </div>
-  <div class="svc-tile">
+  <div class="svc-tile" role="button" tabindex="0" aria-label="Get a free quote for 3D Design and Renders" onclick="openQuoteModal('3D Design &amp; Renders')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openQuoteModal('3D Design &amp; Renders');}">
     <div class="svc-img">
       <svg viewBox="0 0 200 160" fill="none"><rect x="30" y="30" width="140" height="100" rx="6" fill="#E5E7EB" stroke="#D1D5DB"/><rect x="45" y="45" width="110" height="70" rx="4" fill="#F3F4F6"/><rect x="55" y="55" width="40" height="50" rx="3" fill="#D1D5DB"/><rect x="105" y="55" width="40" height="50" rx="3" fill="#D1D5DB"/><rect x="55" y="55" width="40" height="20" rx="3" fill="rgba(184,8,9,.08)"/><rect x="105" y="75" width="40" height="30" rx="3" fill="rgba(5,150,105,.06)"/><text x="100" y="25" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="bold">3D</text></svg>
       <div class="svc-img-overlay"></div>
     </div>
     <div class="svc-body"><div class="svc-name">3D Design &amp; Renders</div><div class="svc-desc">Photorealistic 3D visuals before any work begins. Approve every detail upfront — free with projects.</div><div class="svc-price">Free With Every Project</div></div>
   </div>
-  <div class="svc-tile">
+  <div class="svc-tile" role="button" tabindex="0" aria-label="Get a free quote for False Ceiling and Lighting" onclick="openQuoteModal('False Ceiling &amp; Lighting')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openQuoteModal('False Ceiling &amp; Lighting');}">
     <div class="svc-img">
       <svg viewBox="0 0 200 160" fill="none"><rect x="20" y="20" width="160" height="10" rx="3" fill="#D1D5DB" stroke="#9CA3AF"/><rect x="30" y="30" width="140" height="5" rx="2" fill="#E5E7EB"/><path d="M40 20 Q100 5 160 20" fill="none" stroke="#9CA3AF" stroke-width="1.5"/><circle cx="70" cy="12" r="3" fill="rgba(217,119,6,.4)"/><circle cx="100" cy="8" r="3" fill="rgba(217,119,6,.4)"/><circle cx="130" cy="12" r="3" fill="rgba(217,119,6,.4)"/><rect x="20" y="50" width="160" height="90" rx="0" fill="#E5E7EB"/><line x1="20" y1="50" x2="180" y2="50" stroke="#D1D5DB"/></svg>
       <div class="svc-img-overlay"></div>
@@ -882,13 +886,18 @@ footer{background:var(--dark);border-top:1px solid rgba(255,255,255,.08);padding
 <div class="modal-overlay" id="quoteModal">
 <div class="modal-box">
   <div class="modal-close" onclick="closeQuoteModal()">&times;</div>
-  <h3>Get Your Free Quote</h3>
-  <p>Fill in your details and we'll call you within 2 hours with a personalised estimate.</p>
+  <h3 id="modalTitle">Get Your Free Quote</h3>
+  <p id="modalSubtitle">Fill in your details and we'll call you within 2 hours with a personalised estimate.</p>
+  <div class="service-badge" id="modalServiceBadge" hidden>
+    <span class="lock-icon" aria-hidden="true">🔒</span>
+    <span id="modalServiceLabel"></span>
+  </div>
   <form id="quoteForm" onsubmit="handleFormSubmit(event)">
     <input type="hidden" name="_subject" value="New Interior Design Lead — Keyvendors">
     <input type="hidden" name="_template" value="box">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_next" value="#">
+    <input type="hidden" name="service" id="serviceField" value="General Enquiry">
     <div class="form-group">
       <label>Your Name</label>
       <input type="text" name="name" placeholder="Enter your full name" required>
@@ -915,6 +924,18 @@ footer{background:var(--dark);border-top:1px solid rgba(255,255,255,.08);padding
     <div class="form-group">
       <label>Area / Locality</label>
       <input type="text" name="area" placeholder="e.g. Indirapuram, Sector 62, DLF Phase 3">
+    </div>
+    <div class="form-group" id="serviceDropdownGroup">
+      <label>Service Interested In</label>
+      <select id="serviceSelect" name="serviceSelect">
+        <option value="General Enquiry">General Enquiry</option>
+        <option value="Full-Home Interiors">Full-Home Interiors</option>
+        <option value="Modular Kitchen Design">Modular Kitchen Design</option>
+        <option value="Office &amp; Commercial">Office &amp; Commercial</option>
+        <option value="Wardrobe &amp; Storage">Wardrobe &amp; Storage</option>
+        <option value="3D Design &amp; Renders">3D Design &amp; Renders</option>
+        <option value="False Ceiling &amp; Lighting">False Ceiling &amp; Lighting</option>
+      </select>
     </div>
     <div class="form-group">
       <label>Message (Optional)</label>
@@ -965,37 +986,78 @@ document.querySelectorAll('.faq-q').forEach(q => {
   });
 });
 
-function openQuoteModal() { document.getElementById('quoteModal').classList.add('active'); document.body.style.overflow='hidden'; }
+const SERVICE_TITLES = {
+  'Full-Home Interiors':       'Get a Free Home Interior Quote',
+  'Modular Kitchen Design':    'Get a Free Modular Kitchen Quote',
+  'Office & Commercial':       'Get a Free Office & Commercial Quote',
+  'Wardrobe & Storage':        'Get a Free Wardrobe & Storage Quote',
+  '3D Design & Renders':       'Get Free 3D Design & Renders',
+  'False Ceiling & Lighting':  'Get a Free False Ceiling & Lighting Quote'
+};
+
+function openQuoteModal(service) {
+  const modal       = document.getElementById('quoteModal');
+  const titleEl     = document.getElementById('modalTitle');
+  const badgeEl     = document.getElementById('modalServiceBadge');
+  const labelEl     = document.getElementById('modalServiceLabel');
+  const dropdownEl  = document.getElementById('serviceDropdownGroup');
+  const serviceFld  = document.getElementById('serviceField');
+  const serviceSel  = document.getElementById('serviceSelect');
+
+  if (service && SERVICE_TITLES[service]) {
+    titleEl.textContent = SERVICE_TITLES[service];
+    labelEl.textContent = service;
+    badgeEl.hidden = false;
+    dropdownEl.style.display = 'none';
+    serviceFld.value = service;
+  } else {
+    titleEl.textContent = 'Get Your Free Quote';
+    badgeEl.hidden = true;
+    dropdownEl.style.display = '';
+    serviceFld.value = (serviceSel && serviceSel.value) || 'General Enquiry';
+  }
+
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
 function closeQuoteModal() { document.getElementById('quoteModal').classList.remove('active'); document.body.style.overflow=''; }
 document.getElementById('quoteModal').addEventListener('click', function(e) { if (e.target === this) closeQuoteModal(); });
 document.addEventListener('keydown', function(e) { if (e.key === 'Escape') { closeQuoteModal(); closeMobileMenu(); } });
+
+// Keep hidden service field in sync with the dropdown when no service is locked
+document.getElementById('serviceSelect').addEventListener('change', function() {
+  if (!document.getElementById('modalServiceBadge').hidden) return;
+  document.getElementById('serviceField').value = this.value;
+});
 
 function handleFormSubmit(e) {
   e.preventDefault();
   const form = e.target;
   const data = new FormData(form);
   const name = data.get('name');
+  const service = data.get('service') || 'General Enquiry';
   const submitBtn = form.querySelector('.form-submit');
   submitBtn.textContent = 'Sending...';
   submitBtn.disabled = true;
 
-  // Send leads to info@keyvendors.com via formsubmit.co
-  fetch('https://formsubmit.co/ajax/info@keyvendors.com', {
+  // Send leads to keyvendors@gmail.com via formsubmit.co
+  fetch('https://formsubmit.co/ajax/keyvendors@gmail.com', {
     method: 'POST',
     headers: {'Content-Type': 'application/json','Accept': 'application/json'},
     body: JSON.stringify({
-      _subject: 'New Interior Design Lead — Keyvendors',
+      _subject: `New Lead: ${service} — Keyvendors`,
       name: data.get('name'),
       phone: data.get('phone'),
       city: data.get('city'),
       area: data.get('area'),
+      service: service,
       message: data.get('message') || 'N/A',
       _template: 'box'
     })
   })
   .then(r => r.json())
   .then(result => {
-    const waMsg = `Hi, I'm ${name}. I'm interested in interior design services.\nCity: ${data.get('city')}\nArea: ${data.get('area')}\nMessage: ${data.get('message')||'N/A'}`;
+    const waMsg = `Hi, I'm ${name}. I'm interested in ${service}.\nCity: ${data.get('city')}\nArea: ${data.get('area')}\nMessage: ${data.get('message')||'N/A'}`;
     const waUrl = `https://wa.me/917678462928?text=${encodeURIComponent(waMsg)}`;
     form.innerHTML = `<div style="text-align:center;padding:32px 0">
       <div style="font-size:48px;margin-bottom:16px;color:var(--green)">✓</div>
