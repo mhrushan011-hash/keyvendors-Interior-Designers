@@ -4,6 +4,7 @@
   "framework": null,
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
-    { "source": "/waterproofing", "destination": "/waterproofing.html" }
+    { "source": "/waterproofing", "destination": "/waterproofing.html" },
+    { "source": "/ac-service", "destination": "/ac-service.html" }
   ]
 }
